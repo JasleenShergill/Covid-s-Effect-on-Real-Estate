@@ -1,4 +1,4 @@
-Geographical Location,Date,Composite HPI,Single Family HPI,One Storey HPI,Two Storey HPI,Townhouse HPI,Apartment HPI,Composite House,Single Family House,One Storey House,Two Storey House,Townhouse House,Apartment House
+Provience,Date,Composite HPI,Single Family HPI,One Storey HPI,Two Storey HPI,Townhouse HPI,Apartment HPI,Composite House,Single Family House,One Storey House,Two Storey House,Townhouse House,Apartment House
 Ontario,Jan 2005,100.0,100.0,100.0,100.0,100.0,100.0,265700.0,287300.0,236200.0,312700.0,190400.0,184000.0
 Ontario,Feb 2005,100.2,100.2,100.2,100.2,100.0,100.3,266300.0,287900.0,236600.0,313300.0,190400.0,184600.0
 Ontario,Mar 2005,100.6,100.6,100.3,100.6,100.3,101.0,267300.0,289100.0,236800.0,314700.0,190900.0,185900.0
