@@ -1,4 +1,9 @@
 # Covid-s-Effect-on-Real-Estate
+Overview
+
+A comparative analysis of key indicators before and after the pandemic. Our research project aims to perform an extensive analysis of what are the key differences in the Canadian housing market dynamics before and after the COVID-19 pandemic, and how factors such as housing prices, demand-supply dynamics, mortgage rates, and consumer behavior contributed to these changes.
+
+
 
 As a group, we agreed to investigate COVID-19’s impact on Real Estate. Six  tentative research questions have been tabled. The project has been broken  down into five distinct phases starting with data gathering followed data  cleaning, statistical analysis, visuals creation and final analysis.
 
