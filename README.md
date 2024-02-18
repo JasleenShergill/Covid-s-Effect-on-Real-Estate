@@ -65,3 +65,6 @@ Look over what is involved in matplotlib: https://matplotlib.org/2.0.2/index.ht
 
 Github functions: making branch, changing branch, merge main to branch #Used by Edward
 https://chat.openai.com/
+
+Bar graph : https://stackoverflow.com/questions/22508590/enumerate-plots-in-matplotlib-figure
+
