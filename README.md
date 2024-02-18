@@ -1,4 +1,4 @@
-# Covid-s-Effect-on-Real-Estate
+# Covids-Effect-on-Real-Estate
 
 **Overview**
 
@@ -11,7 +11,7 @@ Has the COVID-19 pandemic significantly impacted the housing market in Canada? W
 The slide deck of our presentation can be found as a PDF, titled: Presentation - Analysis of the housing market in Canada before and after the pandemic.PDF.
 
 
-As a group, we agreed to investigate COVID-19’s impact on Real Estate. Six  tentative research questions have been tabled. The project has been broken  down into five distinct phases starting with data gathering followed data  cleaning, statistical analysis, visuals creation and final analysis.
+As a group, we agreed to investigate COVID-19’s impact on Real Estate. Six  tentative research questions have been tabled. The project has been broken  down into five distinct phases starting with data gathering followed by data  cleaning, statistical analysis, visuals creation and final analysis.
 
 -----------------------------------------------------------------------------------------------------------
 (n.d.). Canadian Housing Market Stats. CREA. https://stats.crea.ca/en-CA/
