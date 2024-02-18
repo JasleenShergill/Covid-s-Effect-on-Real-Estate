@@ -8,14 +8,33 @@ A comparative analysis of key indicators before and after the pandemic. Our rese
 
 The slide deck of our presentation can be found as a PDF, titled: Presentation - Analysis of the housing market in Canada before and after the pandemic.PDF.
 
-**Data Sets**
-Data sets were obtained from the following website:
+**Data Sets**: Data sets were obtained from the following website:
 
 -----------------------------------------------------------------------------------------------------------
 (n.d.). Canadian Housing Market Stats. CREA. https://stats.crea.ca/en-CA/
 -----------------------------------------------------------------------------------------------------------
 
-Sources used for covid19 dataframe creation:
+The data sets included the following information:
+- COVID-19 Infection rates
+- Mortgage rates
+- Housing demand-supply dynamics
+
+**Data Cleaning**
+
+Data cleaning can primarily be found in Jupyter's notebooks "xxx.ipynb". The data cleaning process included the following steps:
+
+Years: 2000 to 2024.
+Covid-19 infection data Analysis from 2019 to present(2024).
+
+Y
+Mortgage rate Data Analysiss from
+
+
+
+
+
+
+**Sources used for covid19 dataframe creation:**
 https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.month_name.html #used by Graham
 https://www.skytowner.com/explore/combining_columns_of_years_months_and_days_in_pandas #used by Graham
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.set_index.html #used by Graham
