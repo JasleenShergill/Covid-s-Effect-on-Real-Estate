@@ -55,6 +55,7 @@ https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.vlines.html #used by
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html #used by Graham
 
 
+
 Mortgage Rate (Interest rate) vs Covid 19 Cases
 
 Data Cleaning:
