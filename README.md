@@ -10,11 +10,10 @@ The slide deck of our presentation can be found as a PDF, titled: Presentation -
 
 **Data Sets**: Data sets were obtained from the following website:
 
------------------------------------------------------------------------------------------------------------
-(n.d.). Canadian Housing Market Stats. CREA. https://stats.crea.ca/en-CA/
------------------------------------------------------------------------------------------------------------
 
-https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/?lookupPage=lookup_canadian_interest.php&startRange=2014-02-08&rangeType=dates&dFrom=2020-01-01&dTo=2024-02-08&rangeValue=1&rangeWeeklyValue=1&rangeMonthlyValue=1&ByDate_frequency=daily&submit_button=Submit
+- (n.d.). Canadian Housing Market Stats. CREA. https://stats.crea.ca/en-CA/
+
+- https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/?lookupPage=lookup_canadian_interest.php&startRange=2014-02-08&rangeType=dates&dFrom=2020-01-01&dTo=2024-02-08&rangeValue=1&rangeWeeklyValue=1&rangeMonthlyValue=1&ByDate_frequency=daily&submit_button=Submit
 
 The data sets included the following information:
 - COVID-19 Infection rates
