@@ -54,7 +54,61 @@ https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html #u
 https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.vlines.html #used by Graham
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html #used by Graham
 
+Real Estate prices vs Covid 19 Cases
 
+Data Cleaning : Real estate data cleaning can be found in jupyter notebook "realestate.ipynb". The data cleaning can be done as follow :
+
+Data Sets- 
+CREA Canadian Housing market stats
+COVID-19 Epeddemiology update Summary
+
+Dataset References- 
+Canada, P. H. A. of. (2023, May 9). Covid-19 epidemiology update: Summary. Canada.ca. https://health-infobase.canada.ca/covid-19/ 
+(n.d.). Canadian Housing Market Stats. CREA. https://stats.crea.ca/en-CA/
+
+- Import dependencies
+    -%matplotlib inline( if using VS code) otherwise use %matplotlib notebook 
+    -import pandas as pd
+    -from pathlib import Path
+    -import numpy as np
+    -import matplotlib.pyplot as plt
+    -import numpy as np
+
+- Import csv files from Resource folder.
+- Read csv files and create df for each city.
+- Display preview of a df.
+- Drop NA values from the dataframes.
+- Display preview of a df to check if NA values are now removed.
+- Clean data using item assignment so that it can be grouped toghter by provience. Set geophraphical   location to provience name.
+- Set Geographical location as index for all the dataframes.
+- Now, concat all the dataframes together.
+- Check dtypes for for each column.
+- Set datatypes to float to perform calculations.
+- Rename column names to make it more readable.
+- Reset index to create geopraphical location as a dataframe column.
+- Rename the column to Provience.
+- Export the cleaned dataframe to a csv file.
+- Check Data format and type.
+- Using str split split date into year and month.
+- Change dataype of cleaned dataframe to float , please note once you export to csv in pandas your dtypes will get changed to objects.
+
+Analysis :
+
+- Using group by  function on Provience and Year find average home price for each column.
+- Create a visualization showing the price change per year from ( 2016 - 2023 )
+- Import cleaned covid-19 csv
+- Read the covid-19 to a dataframe.
+- Rename columns to make it more readable.
+- Extracting values that are needed for analysis.
+- Performing groupby function to check the total number of cases per each provience over year.
+- Using merge function merging real estate and covid-19 df together.
+- Using describe function to see the overview of dataset.
+- Creating visualization showing COVID-19 cases per provience.
+- Creating visualization showing Housing price Index per provience.
+- Creating visualization showing correlation between COVID cases and House price index per provience.
+
+Reference used for graphs-
+Bar graph : https://stackoverflow.com/questions/22508590/enumerate-plots-in-matplotlib-figure
 
 Mortgage Rate (Interest rate) vs Covid 19 Cases
 
