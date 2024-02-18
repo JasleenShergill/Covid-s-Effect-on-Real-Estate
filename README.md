@@ -10,7 +10,6 @@ The slide deck of our presentation can be found as a PDF, titled: Presentation -
 
 **Data Sets**: Data sets were obtained from the following website:
 
-
 - (n.d.). Canadian Housing Market Stats. CREA. https://stats.crea.ca/en-CA/
 
 - https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/?lookupPage=lookup_canadian_interest.php&startRange=2014-02-08&rangeType=dates&dFrom=2020-01-01&dTo=2024-02-08&rangeValue=1&rangeWeeklyValue=1&rangeMonthlyValue=1&ByDate_frequency=daily&submit_button=Submit
@@ -26,15 +25,23 @@ The data sets included the following information:
 Data cleaning can primarily be found in Jupyter's notebooks "Outlier_analysis.ipynb". The data cleaning process included the following steps:
 
 Years: 2000 to 2024.
-Covid-19 infection data Analysis from 2019 to present(2024).
-
-Y
-Mortgage rate Data Analysiss from
+- Covid-19 infection data Analysis from 2020 to the present(2024).
+- 
 
 
+**Data Analysis**
 
+This analysis aims to investigate and comprehend the real estate trends in Canada before and after the onset of the COVID-19 pandemic, with a specific focus on understanding the effects of COVID-19 on these trends.
 
+**COVID Cases in Canada**
 
+**Affect of COVID 19 on Mortgage rate (Interest)**
+
+**Affect of COVID 19 on Housing prices**
+
+**Hypothesis**
+
+**Conclusion**
 
 **Sources used for covid19 dataframe creation:**
 https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.month_name.html #used by Graham
