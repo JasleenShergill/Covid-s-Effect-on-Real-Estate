@@ -21,7 +21,7 @@ The data sets included the following information:
 
 **Data Cleaning**
 
-Data cleaning can primarily be found in Jupyter's notebooks "xxx.ipynb". The data cleaning process included the following steps:
+Data cleaning can primarily be found in Jupyter's notebooks "Outlier_analysis.ipynb". The data cleaning process included the following steps:
 
 Years: 2000 to 2024.
 Covid-19 infection data Analysis from 2019 to present(2024).
