@@ -14,6 +14,9 @@ The slide deck of our presentation can be found as a PDF, titled: Presentation -
 
 - https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/?lookupPage=lookup_canadian_interest.php&startRange=2014-02-08&rangeType=dates&dFrom=2020-01-01&dTo=2024-02-08&rangeValue=1&rangeWeeklyValue=1&rangeMonthlyValue=1&ByDate_frequency=daily&submit_button=Submit
 
+
+Sources used for covid19 dataframe creation:
+
 The data sets included the following information:
 - COVID-19 Infection rates
 - Mortgage rates
@@ -85,6 +88,7 @@ The purpose of the analysis is to is to determine if there is a correlation betw
 References:
 
 Site for CSV File
+
 https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/?lookupPage=lookup_canadian_interest.php&startRange=2014-02-08&rangeType=dates&dFrom=2020-01-01&dTo=2024-02-08&rangeValue=1&rangeWeeklyValue=1&rangeMonthlyValue=1&ByDate_frequency=daily&submit_button=Submit
 
 Definitions for the different types of interest displayed in the dataset
@@ -108,5 +112,6 @@ Look over what is involved in matplotlib: https://matplotlib.org/2.0.2/index.ht
 Github functions: making branch, changing branch, merge main to branch
 https://chat.openai.com/
 
-Bar graph average home prices reference  : https://stackoverflow.com/questions/22508590/enumerate-plots-in-matplotlib-figure
+**Sources used for top and bottom covid19 cases provinces**
+Bar graph average home prices reference  : https://stackoverflow.com/questions/22508590/enumerate-plots-in-matplotlib-figure #Used by Keerthi
 
