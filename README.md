@@ -19,6 +19,7 @@ The data sets included the following information:
 - COVID-19 Infection rates
 - Mortgage rates
 - Housing demand-supply dynamics
+- Real Estate Trends
 
 **Data Cleaning**
 
