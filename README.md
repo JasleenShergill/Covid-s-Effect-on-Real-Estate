@@ -4,7 +4,9 @@
 
 A comparative analysis of key indicators before and after the pandemic. Our research project aims to perform an extensive analysis of what are the key differences in the Canadian housing market dynamics before and after the COVID-19 pandemic, and how factors such as housing prices, demand-supply dynamics, mortgage rates, and consumer behavior contributed to these changes.
 
-**Research Question**: Has the COVID-19 pandemic significantly impacted the housing market in Canada? Which Provinces in Canada have been affected the most? 
+**Research Question**: Has the COVID-19 pandemic significantly impacted the housing market in Canada? Which Provinces in Canada have been affected the most?
+
+Is there a statistically significant difference between the mean home price growth rates after the emmergence of covid-19 in early 2020? Assigned to Graham.
 
 The slide deck of our presentation can be found as a PDF, titled: Presentation - Analysis of the housing market in Canada before and after the pandemic.PDF.
 
@@ -13,6 +15,8 @@ The slide deck of our presentation can be found as a PDF, titled: Presentation -
 - (n.d.). Canadian Housing Market Stats. CREA. https://stats.crea.ca/en-CA/
 
 - https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/?lookupPage=lookup_canadian_interest.php&startRange=2014-02-08&rangeType=dates&dFrom=2020-01-01&dTo=2024-02-08&rangeValue=1&rangeWeeklyValue=1&rangeMonthlyValue=1&ByDate_frequency=daily&submit_button=Submit
+
+- https://health-infobase.canada.ca/covid-19/
 
 
 Sources used for covid19 dataframe creation:
@@ -29,12 +33,16 @@ Data cleaning can primarily be found in Jupyter's notebooks "Outlier_analysis.ip
 
 Years: 2000 to 2024.
 - Covid-19 infection data Analysis from 2020 to the present(2024).
-- 
+
+- The covid19_df.csv was created by Graham in gmmarshBranch.ipynb notebook.
+
 
 
 **Data Analysis**
 
 This analysis aims to investigate and comprehend the real estate trends in Canada before and after the onset of the COVID-19 pandemic, with a specific focus on understanding the effects of COVID-19 on these trends.
+
+- The Avg_Home_Price_Pre_Post_Covid.ipynb notebook was created by Graham to specifically address the following aformentioned research question: Is there a statistically significant difference between the mean home price growth rates after the emmergence of covid-19 in early 2020? The analysis includes stating a null and alternative hypothesis. A paired t-test was used and the null hypothesis was not rejected. It was concluded that there is no statistically significant difference in the mean price growth rates prior to after the emergence of covid-19 in the following realestate categories: composite, single family, one storey, two storey, townhouse and apartment. 
 
 **COVID Cases in Canada**
 
@@ -50,6 +58,8 @@ This analysis aims to investigate and comprehend the real estate trends in Canad
 https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.month_name.html #used by Graham
 https://www.skytowner.com/explore/combining_columns_of_years_months_and_days_in_pandas #used by Graham
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.set_index.html #used by Graham
+
+**Sources used in the Avg_Home_Price_Pre_Post_Covide.ipynb:**
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html #used by Graham
 https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.vlines.html #used by Graham
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html #used by Graham
