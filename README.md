@@ -63,6 +63,7 @@ https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.set_index.html #us
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html #used by Graham
 https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.vlines.html #used by Graham
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html #used by Graham
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html #used by Graham
 
 Real Estate prices vs Covid 19 Cases
 
