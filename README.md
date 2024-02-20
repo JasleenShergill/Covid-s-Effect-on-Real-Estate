@@ -67,5 +67,5 @@ Github functions: making branch, changing branch, merge main to branch #Used by 
 https://chat.openai.com/
 
 Bar graph average home prices reference  : https://stackoverflow.com/questions/22508590/enumerate-plots-in-matplotlib-figure
-. 
+..
 
