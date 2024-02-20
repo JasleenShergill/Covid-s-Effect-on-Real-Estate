@@ -71,3 +71,15 @@ Bar graph average home prices reference  : https://stackoverflow.com/questions/2
 
 ..
 
+Analysis:
+Effect of COVID 19 on Housing prices 
+Analysis Infection rate and Home Prices 
+The purpose of the analysis is to is to determine if there is a correlation between the changes in Home Prices and the rise of Covid-19 cases ranging from 2020 until 2023. Find the relationship between the two variables and present whether there was a pattern between them.
+-According to the Bar graphs that shows the total cases of different provinces in each year, it is illustrated that covid cases increased each year from 2020 to 2023 in all provinces. 
+And as I am comparing the difference of Total cases in different provinces like Newfounland and Labrador, Ontario and British Colombia, Total cases of Ontario and British Colombia are both way higher than Newfounland and Labrador is much less. 
+-In the second bar graph, Median single house prices of three different provinces have shown, 
+Newfounland and Labrador with $267,550, Ontario $818,450 and BC with $919,900 median single house prices. 
+And according to graphs Vancouver has the highest Single Family house prices, following by Ontario and NewFounland at the last. These graphs shows that each year from starting of covid 19, Single Family house prices increased more in Vancouver and Ontario comparing to Newfoundland and Labrador. 
+
+The last plot graph also demonstrates the different between Single Family house Prices and Apartment prices from 2005 to 2023. And it illustrated that each year Single family house Prices was more expensive than Apartment Prices. Moreover, the graph showed since 2005, House prices are increasing, and it had increased hugely from 2020 to 2022.
+
