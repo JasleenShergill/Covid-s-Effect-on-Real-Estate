@@ -177,6 +177,14 @@ Look over what is involved in matplotlib: https://matplotlib.org/2.0.2/index.ht
 Github functions: making branch, changing branch, merge main to branch
 https://chat.openai.com/
 
+
+Analysis
+Home price vs covid Infection Rate,
+The code for this analysis is in “Mana,Infection_rate_vs_homeprice.ipynb”
+The data frames used in the analysis are real_estate_clean.csv and covid19_df.csv
+Once merged we can properly filter out the combined data for different Provinces and for years are 2020 to 2023.
+
+
 **Sources used for top and bottom covid19 cases provinces**
 Bar graph average home prices reference  : https://stackoverflow.com/questions/22508590/enumerate-plots-in-matplotlib-figure #Used by Keerthi
 
