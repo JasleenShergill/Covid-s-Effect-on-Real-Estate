@@ -27,33 +27,6 @@ The data sets included the following information:
 - Housing demand-supply dynamics
 - Real Estate Trends
 
-**Data Cleaning**
-
-Data cleaning can primarily be found in Jupyter's notebooks "Outlier_analysis.ipynb". The data cleaning process included the following steps:
-
-Years: 2000 to 2024.
-- Covid-19 infection data Analysis from 2020 to the present(2024).
-
-- The covid19_df.csv was created by Graham in gmmarshBranch.ipynb notebook.
-
-
-
-**Data Analysis**
-
-This analysis aims to investigate and comprehend the real estate trends in Canada before and after the onset of the COVID-19 pandemic, with a specific focus on understanding the effects of COVID-19 on these trends.
-
-- The Avg_Home_Price_Pre_Post_Covid.ipynb notebook was created by Graham to specifically address the following aformentioned research question: Is there a statistically significant difference between the mean home price growth rates after the emmergence of covid-19 in early 2020? The analysis includes stating a null and alternative hypothesis. A paired t-test was used and the null hypothesis was not rejected. It was concluded that there is no statistically significant difference in the mean price growth rates prior to after the emergence of covid-19 in the following realestate categories: composite, single family, one storey, two storey, townhouse and apartment. 
-
-**COVID Cases in Canada**
-
-**Affect of COVID 19 on Mortgage rate (Interest)**
-
-**Affect of COVID 19 on Housing prices**
-
-**Hypothesis**
-
-**Conclusion**
-
 **Sources used for covid19 dataframe creation:**
 https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.month_name.html #used by Graham
 https://www.skytowner.com/explore/combining_columns_of_years_months_and_days_in_pandas #used by Graham
@@ -65,19 +38,26 @@ https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.vlines.html #used by
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html #used by Graham
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html #used by Graham
 
-Real Estate prices vs Covid 19 Cases
+**Data Analysis**
+
+This analysis aims to investigate and comprehend the real estate trends in Canada before and after the onset of the COVID-19 pandemic, with a specific focus on understanding the effects of COVID-19 on these trends.
+
+- The Avg_Home_Price_Pre_Post_Covid.ipynb notebook was created by Graham to specifically address the following aformentioned research question: Is there a statistically significant difference between the mean home price growth rates after the emmergence of covid-19 in early 2020? The analysis includes stating a null and alternative hypothesis. A paired t-test was used and the null hypothesis was not rejected. It was concluded that there is no statistically significant difference in the mean price growth rates prior to after the emergence of covid-19 in the following realestate categories: composite, single family, one storey, two storey, townhouse and apartment. 
+
+
+**Real Estate prices vs Covid 19 Cases**
 
 Data Cleaning : Real estate data cleaning can be found in jupyter notebook "realestate.ipynb". The data cleaning can be done as follow :
 
-Data Sets- 
+**Data Sets-** 
 CREA Canadian Housing market stats
 COVID-19 Epeddemiology update Summary
 
-Dataset References- 
+**Dataset References- **
 Canada, P. H. A. of. (2023, May 9). Covid-19 epidemiology update: Summary. Canada.ca. https://health-infobase.canada.ca/covid-19/ 
 (n.d.). Canadian Housing Market Stats. CREA. https://stats.crea.ca/en-CA/
 
-- Import dependencies
+**- Import dependencies**
     -%matplotlib inline( if using VS code) otherwise use %matplotlib notebook 
     -import pandas as pd
     -from pathlib import Path
@@ -103,7 +83,7 @@ Canada, P. H. A. of. (2023, May 9). Covid-19 epidemiology update: Summary. Canad
 - Using str split split date into year and month.
 - Change dataype of cleaned dataframe to float , please note once you export to csv in pandas your dtypes will get changed to objects.
 
-Analysis :
+**Analysis :**
 
 - Using group by  function on Provience and Year find average home price for each column.
 - Create a visualization showing the price change per year from ( 2016 - 2023 )
@@ -118,12 +98,12 @@ Analysis :
 - Creating visualization showing Housing price Index per provience.
 - Creating visualization showing correlation between COVID cases and House price index per provience.
 
-Reference used for graphs-
+**Reference used for graphs-**
 Bar graph : https://stackoverflow.com/questions/22508590/enumerate-plots-in-matplotlib-figure
 
 Mortgage Rate (Interest rate) vs Covid 19 Cases
 
-Data Cleaning:
+**Data Cleaning:**
 Mortgage rate data cleaning can be found in the Notebook interestrate.ipynb. The data cleaning can be done as follows:
 - Import dependancies (pandas as pd, from plotlib import plot)
 - Import csv file (Resources/chartered_bank_interest.csv)
@@ -140,7 +120,7 @@ Mortgage rate data cleaning can be found in the Notebook interestrate.ipynb. The
 - Display final results
 - Export to Output folder named interest_rate_cleaned.csv
 
-Analysis
+**Analysis**
 Mortgage Rates vs Covid-19 Cases
 The purpose of the analysis is to is to determine if there is a correlation between the changes in Mortgage Rates and the rise of Covid-19 cases ranging from 2020 until 2023. Find the relationship between the two variables and present whether there was a pattern between them.
 
@@ -151,9 +131,9 @@ The purpose of the analysis is to is to determine if there is a correlation betw
 - The visualizations were created using the following: “Prime Rate” and “5 Year Fixed Rate” vs “Year”, “Total Cases (1/10000)” vs “Year”, “Prime Rate” vs “Total Cases (1/10000)”, “5 Year Fixed Rate” vs “Total Cases (1/10000)”.
 - From the visualizations we can infer that there is a positive trend to the change in Mortgage Rate as the Covid-19 cases increases.
 
-References:
+**References:**
 
-Site for CSV File
+**Site for CSV File**
 
 https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/?lookupPage=lookup_canadian_interest.php&startRange=2014-02-08&rangeType=dates&dFrom=2020-01-01&dTo=2024-02-08&rangeValue=1&rangeWeeklyValue=1&rangeMonthlyValue=1&ByDate_frequency=daily&submit_button=Submit
 
@@ -179,7 +159,8 @@ Github functions: making branch, changing branch, merge main to branch
 https://chat.openai.com/
 
 
-Analysis
+**Analysis**
+
 Home price vs covid Infection Rate,
 The code for this analysis is in “Mana,Infection_rate_vs_homeprice.ipynb”
 The data frames used in the analysis are real_estate_clean.csv and covid19_df.csv
