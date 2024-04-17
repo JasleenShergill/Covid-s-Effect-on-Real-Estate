@@ -1,4 +1,4 @@
-🏠📊 **COVID-19 Effect on Housing Market in Canada**
+# 🏠📊 **COVID-19 Effect on Housing Market in Canada**
 
 **Overview**
 Embark on a journey through the twists and turns of the Canadian housing market before and after the COVID-19 pandemic. Our research project delves into an in-depth comparative analysis of key indicators, aiming to uncover the profound impact of the pandemic on various facets of the housing landscape. From housing prices to demand-supply dynamics, mortgage rates, and consumer behavior, join us as we dissect the evolving narrative of Canada's real estate sector.
